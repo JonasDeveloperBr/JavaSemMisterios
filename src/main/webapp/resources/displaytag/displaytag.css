@@ -1,0 +1,132 @@
+/*********************/
+/* css displaytag    */
+/* edit by Luiz      */
+/* date 21/06/2006   */
+/*********************/
+
+/*************************/
+/* div: div_displaytag   */
+/*************************/
+
+#div_displaytagTable {
+	
+}
+	
+#div_displaytagTable th, #div_displaytagTable span, #div_displaytagTable a
+{
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	list-style-type: none;
+}
+
+#div_displaytagTable a {
+	color: #666;
+	text-decoration: none;
+}
+
+#div_displaytagTable a:hover {
+	text-decoration: underline;
+}
+
+#div_displaytagTable img {
+	border: none;
+}
+
+#div_displaytagTable table, #div_displaytagTable div {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+/* 	font-size: 11px; */
+	border: 1px solid #666;
+	
+	/* width: 90%; */
+	align: center
+}
+
+#div_displaytagTable th, #div_displaytagTable td {
+	padding: 2px 4px 2px 4px !important;
+	text-align: left;
+	vertical-align: top;
+}
+
+#div_displaytagTable th {
+	text-transform: lowercase;
+	color: white;
+	font-family: arial;
+}
+
+#div_displaytagTable thead tr {
+	background-color: #318dd0; 
+}
+
+#div_displaytagTable th.sorted {
+	background-color: NavajoWhite;
+}
+
+#div_displaytagTable th a, #div_displaytagTable th a:visited {
+	color: black;
+}
+
+#div_displaytagTable th a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+#div_displaytagTable th.sortable a {
+	background-position: right;
+	display: block;
+	width: 100%;
+	background-image: url(img/arrow_off.png); /*image sort off*/
+}
+
+#div_displaytagTable th.order1 a {
+	background-image: url(img/arrow_down.png); /*image sort down*/
+}
+
+#div_displaytagTable th.order2 a {
+	background-image: url(img/arrow_up.png); /*image sort up*/
+}
+
+#div_displaytagTable tr.odd {
+	background-color: #e6e7e6;
+}
+
+#div_displaytagTable tr.even {
+	background-color: #fefffe;
+}
+
+/********************/
+/* bar export links */
+/********************/
+
+#div_displaytagTable div.exportlinks {
+	border: none;
+	padding: 2px 4px 2px 4px;
+	/* margin: 2px 0 10px 0; */
+	/* width: 80%; */
+}
+
+#div_displaytagTable span.export {
+	padding: 0 4px 1px 20px;
+	display: inline;
+	cursor: pointer;
+}
+
+#div_displaytagTable span.excel {
+	background-image: url(img/ico_file_excel.png);
+}
+
+#div_displaytagTable span.csv {
+	background-image: url(img/ico_file_csv.png);
+}
+
+#div_displaytagTable span.xml {
+	background-image: url(img/ico_file_xml.png);
+}
+
+#div_displaytagTable span.pdf {
+	background-image: url(img/ico_file_pdf.png);
+}
+
+#div_displaytagTable span.rtf {
+	background-image: url(img/ico_file_rtf.png);
+}
